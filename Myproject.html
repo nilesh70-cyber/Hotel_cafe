@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One8 | luxary Cafe </title>
+    <link rel="stylesheet" href="myproject.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">One<span>8</span></div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#hours">Hours</a></li>
+                <li><a href="#book">Reserve</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="toggle-btn" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay">
+            <h1>Freshly Brewed Daily.</h1>
+            <p>Experience artisanal coffee and locally sourced breakfast pairings in a cozy atmosphere.</p>
+            <a href="#menu" class="cta-btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Favorites</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Classic Cappuccino</h3>
+                    <span class="price">₹79.00</span>
+                </div>
+                <p>Double shot of espresso, steamed milk, and a deep layer of foam.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Avocado Sourdough</h3>
+                    <span class="price">₹129.00</span>
+                </div>
+                <p>Crushed avocado, cherry tomatoes, feta cheese, and chili flakes.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Cold Brew Blend</h3>
+                    <span class="price">₹89.00</span>
+                </div>
+                <p>Steeped for 18 hours for an incredibly smooth, low-acid finish.</p>
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Matcha Latte</h3>
+                    <span class="price">₹149
+                        00
+                    </span>
+                </div>
+                <p>Ceremonial grade Japanese green tea whisked with creamy oat milk.</p>
+                
+            </div>
+            <div class="menu-item">
+                <div class="item-info">
+                    <h3>Classic Indian Rose Tea</h3>
+                    <span class="price">₹89.00</span>
+                </div>
+                <p>Infused with the royalty of ancient Indian gardens.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hours" class="hours-section">
+        <div class="hours-container">
+            <h2>Hours & Location</h2>
+            <div class="hours-box">
+                <p><strong>Monday - Friday:</strong> 7:00 AM - 6:00 PM</p>
+                <p><strong>Saturday - Sunday:</strong> 8:00 AM - 4:00 PM</p>
+                <hr>
+                <p class="address">📍Near Jila Pareshad, Jail Road, <br> Orai 285001</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="booking-section">
+        <h2>Book a Table</h2>
+        <p class="sub-text">Planning a meeting or a weekend brunch? Secure your spot below.</p>
+        <form id="bookingForm" class="booking-form">
+            <div class="input-row">
+                <input type="text" id="guestName" placeholder="Your Name" required>
+                <input type="number" id="guestCount" placeholder="Number of Guests" min="1" max="10" required>
+            </div>
+            <div class="input-row">
+                <input type="date" id="bookDate" required>
+                <input type="time" id="bookTime" required>
+            </div>
+            <button type="submit" class="submit-btn">Confirm Reservation</button>
+        </form>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p class="sub-text">We would love to hear from you!</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> info@one8cafe.com</p>
+            <p><strong>Phone:</strong> +91 7007780412</p>
+            <p><strong>Address:</strong> Near Jila Pareshad, Jail Road, Orai 285001</p>
+        </div>
+    </section>
+
+   <div class="feedback-form">
+        <h2>Feedback Form</h2>
+
+        <form id="feedbackForm">
+        
+        <label for="name">Name:</label>
+            <input 
+                type="text"
+                id="name"
+                placeholder="Enter your name" 
+          
+        >
+        
+        <label for="email">Email:</label>
+            <input 
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+        >
+        
+        <label for="message"> Your feedback:</label>
+            <textarea 
+                id="message"
+                rows="5"
+                placeholder="Enter your feedback"
+        > </textarea>
+
+        <lebel for="rating">Rating:</label>
+            <select id="rating">
+                <option value="">Select a rating</option>
+                <option value="1">1 - Poor</option>
+                <option value="2">2 - Fair</option>
+                <option value="3">3 - Good</option>
+                <option value="4">4 - Very Good</option>
+                <option value="5">5 - Excellent</option>
+            </select>
+
+        <button id="submitFeedback">Submit Feedback</button>
+        </form>
+
+            
+            
+
+
+    </div>
+     
+
+
+
+    <footer>
+        <p>&copy; 2026 One8| luxary cafe. Built with passion and love by Nilesh Sen❤️.</p>
+    </footer>
+
+    <script src="myproject.js"></script>
+</body>
+</html>
+
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?BB5FFBC305CD8B891BDC37DF295AE175013E
