@@ -32,4 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
         
         bookingForm.reset();
     });
+    
+    const feedbackForm = document.getElementById('feedbackForm');
+
+    feedbackForm.addEventListener('submit',(e) =>{
+        e.preventDefault(); alert('We really appreciate your feedback! hope you enjoyed your time at One8 Cafe!');
+        feedbackForm.reset();
+    });
+    
 });
